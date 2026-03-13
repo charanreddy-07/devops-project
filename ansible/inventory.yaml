@@ -1,0 +1,10 @@
+﻿plugin: amazon.aws.aws_ec2
+regions:
+  - us-east-1
+filters:
+  tag:eks:cluster-name: devops-cluster
+  instance-state-name: running
+hostnames:
+  - dns-name
+groups:
+  eks_nodes: true

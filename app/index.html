@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>DevOps Project</title>
+  <style>
+    body{background:#0d1117;color:#e6edf3;font-family:monospace;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;margin:0;}
+    h1{color:#58a6ff;font-size:48px;margin-bottom:16px;}
+    p{color:#8b949e;font-size:16px;margin-bottom:32px;}
+    .badge{background:rgba(35,134,54,0.15);border:1px solid rgba(35,134,54,0.4);color:#3fb950;padding:8px 24px;font-size:12px;letter-spacing:2px;margin-bottom:32px;}
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:800px;}
+    .card{background:#161b22;border:1px solid #30363d;padding:20px;text-align:center;}
+    .card .label{font-size:11px;color:#8b949e;letter-spacing:1px;}
+    .card .value{font-size:15px;color:#58a6ff;margin-top:6px;font-weight:700;}
+    .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3fb950;margin-right:6px;animation:pulse 2s infinite;}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+  </style>
+</head>
+<body>
+  <div class="badge">FULL DEVOPS PIPELINE - LIVE ON AWS EKS</div>
+  <h1>DevOps Project</h1>
+  <p>Built by Harshitha | GitHub Actions + Docker + K8s + Terraform + Ansible + Prometheus + Grafana</p>
+  <div class="grid">
+    <div class="card"><div class="label">STATUS</div><div class="value"><span class="dot"></span>Online</div></div>
+    <div class="card"><div class="label">PLATFORM</div><div class="value">AWS EKS</div></div>
+    <div class="card"><div class="label">CI/CD</div><div class="value">GitHub Actions</div></div>
+    <div class="card"><div class="label">INFRA</div><div class="value">Terraform</div></div>
+    <div class="card"><div class="label">CONFIG</div><div class="value">Ansible</div></div>
+    <div class="card"><div class="label">CONTAINERS</div><div class="value">Docker</div></div>
+    <div class="card"><div class="label">METRICS</div><div class="value">Prometheus</div></div>
+    <div class="card"><div class="label">DASHBOARD</div><div class="value">Grafana</div></div>
+  </div>
+</body>
+</html>

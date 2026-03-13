@@ -1,0 +1,14 @@
+﻿{
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "Full DevOps pipeline project by Harshitha",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "Harshitha",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+﻿node_modules
+.git
+*.log
+k8s/
+terraform/
+ansible/
+monitoring/
+README.md
+.github/
